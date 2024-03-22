@@ -1,0 +1,10 @@
+plugins:
+  multirepo:
+    imported_repo: true
+    url: https://github.com/pbj-writes/repo_1
+    # dirs/files needed for building the site
+    # any path in docs will be included. For example, index.md is the
+    # homepage of the parent site
+    paths: [docs/install.md, docs/inventory.md, /README.md]
+    yml_file: mkdocs.yml # this can also be a relative path
+    branch: main
