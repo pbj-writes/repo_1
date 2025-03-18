@@ -1,0 +1,8 @@
+site_name: subs/repo_1
+
+docs_dir: ./docs
+
+nav:
+- Home: 'index.md'
+- More Docs: 
+    - Logic: 'top_secret/secret_logic.md'
